@@ -1,0 +1,1026 @@
+{
+  "uuid": "e78dc15a324aee49be4d4aad9797b541",
+  "path": "Offline/N2onboardTelemetry",
+  "name": "N2onboardTelemetry",
+  "content": "",
+  "created_at": "2022-01-05 14:29:38",
+  "updated_at": "2022-02-04 12:53:50",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "808ad6901b4da812b8ac274357c9a8cc",
+      "title": "Connectors",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "58557ab5dac544259249b4981dd6020c": 3,
+        "3f69fb7874b2264b31c6cd70d022e987": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "Header-Male-2.54_1x4",
+          3,
+          "HDR-TH_4P-P2.54-V-M",
+          "H1,H2,H3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "Ckmtw",
+            "BOM_Manufacturer Part": "210S-1*4P L=11.6MMGold-plated black",
+            "BOM_Supplier Part": "C124378",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "89f5280378144b629de4998ef974b6b8",
+            "uuid": "58557ab5dac544259249b4981dd6020c"
+          }
+        ],
+        [
+          "WJ126V-5.0-2P",
+          1,
+          "CONN-TH_WJ126V-5.0-2P",
+          "P1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ReliaPro",
+            "BOM_Manufacturer Part": "WJ126V-5.0-2P",
+            "BOM_Supplier Part": "C8404",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "062b3c1ca40e463696708e6a448b475e",
+            "uuid": "3f69fb7874b2264b31c6cd70d022e987"
+          }
+        ],
+        [
+          "100nF",
+          1,
+          "C0603",
+          "C1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "FH",
+            "BOM_Manufacturer Part": "0603F104M500NT",
+            "BOM_Supplier Part": "C42998",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "ef0308c0ea86996567612637ce525ebc"
+          }
+        ],
+        [
+          "10uF",
+          2,
+          "C0603",
+          "C2,C3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "SAMSUNG",
+            "BOM_Manufacturer Part": "CL10A106KP8NNNC",
+            "BOM_Supplier Part": "C19702",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "3d033fcb6d334c25b65a754834cf5aaf"
+          }
+        ],
+        [
+          "2.7pF",
+          1,
+          "C0402",
+          "C4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "FH",
+            "BOM_Manufacturer Part": "0402CG2R7C500NT",
+            "BOM_Supplier Part": "C1561",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "6a880fe62790eec0357a4132b7a1e8e8"
+          }
+        ],
+        [
+          "TF-01A",
+          1,
+          "TF-SMD_TF-01A",
+          "CARD1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "HRO",
+            "BOM_Manufacturer Part": "TF-01A",
+            "BOM_Supplier Part": "C91145",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "9a08f47f425f4bad84311d285e13676f",
+            "uuid": "3d240747a85043e08408d9845ebe7995"
+          }
+        ],
+        [
+          "1.8nH",
+          1,
+          "L0402",
+          "L1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "HK10051N8S-T",
+            "BOM_Manufacturer": "TAIYO YUDEN",
+            "BOM_Supplier Part": "C89157",
+            "puuid": "8da96988a9164ab09ca115e01caf2944",
+            "uuid": "8338b7fd59174455908892c7e3db5b6c"
+          }
+        ],
+        [
+          "10K",
+          4,
+          "R0603",
+          "R1,R2,R3,R4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "YAGEO",
+            "BOM_Manufacturer Part": "RC0603FR-0710KL",
+            "BOM_Supplier Part": "C98220",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "9e0eced329e241a390924a11deca01dd"
+          }
+        ],
+        [
+          "E19-433MS100",
+          1,
+          "WIRELM-SMD_E19-433M20SC",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C97346",
+            "BOM_Manufacturer": "Chengdu Ebyte Elec Tech",
+            "BOM_Manufacturer Part": "E19-433MS100",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "17e1c5991a0e41fbae925cc2dcb23be3",
+            "uuid": "c0e8efbc5dc647b68651d4919e7c42a0"
+          }
+        ],
+        [
+          "SMACONNECTOR_EDGE_UFL",
+          1,
+          "SMA_EDGELAUNCH_UFL",
+          "X1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "04da586678d04a489aa7c3aad3424681",
+            "uuid": "923ac6d65460475c84b7be6679e45c6c"
+          }
+        ],
+        [
+          "SKRKAHE020",
+          2,
+          "SW-SMD_L3.9-W3.0-P4.45",
+          "BOOT1,RST1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C202388",
+            "BOM_Manufacturer": "ALPS Electric",
+            "BOM_Manufacturer Part": "SKRKAHE020",
+            "puuid": "b53540e64640488d85628c6a1377628d",
+            "uuid": "b13f76cc33404b309e2cd38bab4d4a51"
+          }
+        ],
+        [
+          "MLT-7525",
+          1,
+          "BUZ-SMD_4P-L7.5-W7.5-P7.59-TL",
+          "BUZZER1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C95299",
+            "BOM_Manufacturer": "Jiangsu Huaneng Elec",
+            "BOM_Manufacturer Part": "MLT-7525",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "f8464525159649efb04dade6ec86320c",
+            "uuid": "40e54cefd7bb4082846de2b3395ac1ff"
+          }
+        ],
+        [
+          "10uF",
+          1,
+          "C0603",
+          "C5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "SAMSUNG",
+            "BOM_Manufacturer Part": "CL10A106KP8NNNC",
+            "BOM_Supplier Part": "C19702",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "3d033fcb6d334c25b65a754834cf5aaf"
+          }
+        ],
+        [
+          "0.1uF",
+          1,
+          "C0402",
+          "C6",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C307416",
+            "BOM_Manufacturer": "Samsung Electro-Mechanics",
+            "BOM_Manufacturer Part": "CL05A106MQ8NUB8",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "6aed8d590c4e40fbb14c8ce120dbe52b"
+          }
+        ],
+        [
+          "1uF",
+          2,
+          "C0603",
+          "C7,C8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "CL10A105KB8NNNC",
+            "BOM_Manufacturer": "SAMSUNG",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Supplier Part": "C15849",
+            "puuid": "9796ce52d844439588f46357e429be00",
+            "uuid": "637415f70eb949abfaeba2abe658ee9b"
+          }
+        ],
+        [
+          "WS2812B-MINI",
+          1,
+          "LED-SMD_4P-L3.5-W3.5-TL_WS2812B",
+          "LED1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C527089",
+            "BOM_Manufacturer": "Worldsemi",
+            "BOM_Manufacturer Part": "WS2812B-Mini",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "226176c6090a408f97941d6918aaf715",
+            "uuid": "902f4cd0c5304519a675be2ee076e142"
+          }
+        ],
+        [
+          "White light_C2290",
+          2,
+          "LED0603-R-RD_WHITE",
+          "POWER1,STATUS1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "KENTO",
+            "BOM_Manufacturer Part": "0603White light",
+            "BOM_Supplier Part": "C2290",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "af16510a196f45a3b2eecfb1ed8360c1",
+            "uuid": "353ff04a8071d3e6740fa5273965e20c"
+          }
+        ],
+        [
+          "330",
+          2,
+          "R0402",
+          "R5,R6",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0402WGJ0331TCE",
+            "BOM_Supplier Part": "C12246",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "fafd024f554e426eb74cf4a204aa88b0",
+            "uuid": "13496764f83d55de6ee6c40c818f3731"
+          }
+        ],
+        [
+          "10K",
+          2,
+          "R0402",
+          "R7,R8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0402WGF1002TCE",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Supplier Part": "C25744",
+            "puuid": "cea456c24ca24165b176bcf9114a7b29",
+            "uuid": "6c2bedbae9fbd358441dfb9948555b9c"
+          }
+        ],
+        [
+          "ESP32-WROOM-32UE(4MB)_C2934568",
+          1,
+          "WIFI-SMD_ESP32-WROOM-32UE",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2934568",
+            "BOM_Manufacturer": "ESPRESSIF 乐鑫",
+            "BOM_Manufacturer Part": "ESP32-WROOM-32UE(4MB)",
+            "puuid": "52f4a22f6d8f427a9fe26645602170d5",
+            "uuid": "2e076c730e064f17ac11a9a9d4cd7bf4"
+          }
+        ]
+      ],
+      "updateTime": 1643965899,
+      "createTime": 1641382188,
+      "histories": [],
+      "created_at": "2022-01-05 14:29:48",
+      "updated_at": "2022-02-04 12:11:39"
+    },
+    {
+      "uuid": "22b0f8b7a1033b7907c930b9df5570cd",
+      "title": "lora&storage",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "6a880fe62790eec0357a4132b7a1e8e8": 1,
+        "8338b7fd59174455908892c7e3db5b6c": 1,
+        "923ac6d65460475c84b7be6679e45c6c": 1,
+        "ef0308c0ea86996567612637ce525ebc": 1,
+        "3d033fcb6d334c25b65a754834cf5aaf": 2,
+        "3d240747a85043e08408d9845ebe7995": 1,
+        "9e0eced329e241a390924a11deca01dd": 4,
+        "c0e8efbc5dc647b68651d4919e7c42a0": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "Header-Male-2.54_1x4",
+          3,
+          "HDR-TH_4P-P2.54-V-M",
+          "H1,H2,H3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "Ckmtw",
+            "BOM_Manufacturer Part": "210S-1*4P L=11.6MMGold-plated black",
+            "BOM_Supplier Part": "C124378",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "89f5280378144b629de4998ef974b6b8",
+            "uuid": "58557ab5dac544259249b4981dd6020c"
+          }
+        ],
+        [
+          "WJ126V-5.0-2P",
+          2,
+          "CONN-TH_WJ126V-5.0-2P",
+          "P1,P2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ReliaPro",
+            "BOM_Manufacturer Part": "WJ126V-5.0-2P",
+            "BOM_Supplier Part": "C8404",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "062b3c1ca40e463696708e6a448b475e",
+            "uuid": "3f69fb7874b2264b31c6cd70d022e987"
+          }
+        ],
+        [
+          "100nF",
+          1,
+          "C0603",
+          "C1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "FH",
+            "BOM_Manufacturer Part": "0603F104M500NT",
+            "BOM_Supplier Part": "C42998",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "ef0308c0ea86996567612637ce525ebc"
+          }
+        ],
+        [
+          "10uF",
+          2,
+          "C0603",
+          "C2,C3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "SAMSUNG",
+            "BOM_Manufacturer Part": "CL10A106KP8NNNC",
+            "BOM_Supplier Part": "C19702",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "3d033fcb6d334c25b65a754834cf5aaf"
+          }
+        ],
+        [
+          "2.7pF",
+          1,
+          "C0402",
+          "C4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "FH",
+            "BOM_Manufacturer Part": "0402CG2R7C500NT",
+            "BOM_Supplier Part": "C1561",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "6a880fe62790eec0357a4132b7a1e8e8"
+          }
+        ],
+        [
+          "TF-01A",
+          1,
+          "TF-SMD_TF-01A",
+          "CARD1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "HRO",
+            "BOM_Manufacturer Part": "TF-01A",
+            "BOM_Supplier Part": "C91145",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "9a08f47f425f4bad84311d285e13676f",
+            "uuid": "3d240747a85043e08408d9845ebe7995"
+          }
+        ],
+        [
+          "1.8nH",
+          1,
+          "L0402",
+          "L1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "HK10051N8S-T",
+            "BOM_Manufacturer": "TAIYO YUDEN",
+            "BOM_Supplier Part": "C89157",
+            "puuid": "8da96988a9164ab09ca115e01caf2944",
+            "uuid": "8338b7fd59174455908892c7e3db5b6c"
+          }
+        ],
+        [
+          "10K",
+          4,
+          "R0603",
+          "R1,R2,R3,R4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "YAGEO",
+            "BOM_Manufacturer Part": "RC0603FR-0710KL",
+            "BOM_Supplier Part": "C98220",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "9e0eced329e241a390924a11deca01dd"
+          }
+        ],
+        [
+          "E19-433MS100",
+          1,
+          "WIRELM-SMD_E19-433M20SC",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C97346",
+            "BOM_Manufacturer": "Chengdu Ebyte Elec Tech",
+            "BOM_Manufacturer Part": "E19-433MS100",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "17e1c5991a0e41fbae925cc2dcb23be3",
+            "uuid": "c0e8efbc5dc647b68651d4919e7c42a0"
+          }
+        ],
+        [
+          "SMACONNECTOR_EDGE_UFL",
+          1,
+          "SMA_EDGELAUNCH_UFL",
+          "X1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "04da586678d04a489aa7c3aad3424681",
+            "uuid": "923ac6d65460475c84b7be6679e45c6c"
+          }
+        ],
+        [
+          "SKRKAHE020",
+          2,
+          "SW-SMD_L3.9-W3.0-P4.45",
+          "BOOT1,RST1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C202388",
+            "BOM_Manufacturer": "ALPS Electric",
+            "BOM_Manufacturer Part": "SKRKAHE020",
+            "puuid": "b53540e64640488d85628c6a1377628d",
+            "uuid": "b13f76cc33404b309e2cd38bab4d4a51"
+          }
+        ],
+        [
+          "MLT-7525",
+          1,
+          "BUZ-SMD_4P-L7.5-W7.5-P7.59-TL",
+          "BUZZER1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C95299",
+            "BOM_Manufacturer": "Jiangsu Huaneng Elec",
+            "BOM_Manufacturer Part": "MLT-7525",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "f8464525159649efb04dade6ec86320c",
+            "uuid": "40e54cefd7bb4082846de2b3395ac1ff"
+          }
+        ],
+        [
+          "10uF",
+          1,
+          "C0603",
+          "C5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "SAMSUNG",
+            "BOM_Manufacturer Part": "CL10A106KP8NNNC",
+            "BOM_Supplier Part": "C19702",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "3d033fcb6d334c25b65a754834cf5aaf"
+          }
+        ],
+        [
+          "0.1uF",
+          1,
+          "C0402",
+          "C6",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C307416",
+            "BOM_Manufacturer": "Samsung Electro-Mechanics",
+            "BOM_Manufacturer Part": "CL05A106MQ8NUB8",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "6aed8d590c4e40fbb14c8ce120dbe52b"
+          }
+        ],
+        [
+          "1uF",
+          2,
+          "C0603",
+          "C7,C8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "CL10A105KB8NNNC",
+            "BOM_Manufacturer": "SAMSUNG",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Supplier Part": "C15849",
+            "puuid": "9796ce52d844439588f46357e429be00",
+            "uuid": "637415f70eb949abfaeba2abe658ee9b"
+          }
+        ],
+        [
+          "WS2812B-MINI",
+          1,
+          "LED-SMD_4P-L3.5-W3.5-TL_WS2812B",
+          "LED1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C527089",
+            "BOM_Manufacturer": "Worldsemi",
+            "BOM_Manufacturer Part": "WS2812B-Mini",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "226176c6090a408f97941d6918aaf715",
+            "uuid": "902f4cd0c5304519a675be2ee076e142"
+          }
+        ],
+        [
+          "White light_C2290",
+          2,
+          "LED0603-R-RD_WHITE",
+          "POWER1,STATUS1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "KENTO",
+            "BOM_Manufacturer Part": "0603White light",
+            "BOM_Supplier Part": "C2290",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "af16510a196f45a3b2eecfb1ed8360c1",
+            "uuid": "353ff04a8071d3e6740fa5273965e20c"
+          }
+        ],
+        [
+          "330",
+          2,
+          "R0402",
+          "R5,R6",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0402WGJ0331TCE",
+            "BOM_Supplier Part": "C12246",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "fafd024f554e426eb74cf4a204aa88b0",
+            "uuid": "13496764f83d55de6ee6c40c818f3731"
+          }
+        ],
+        [
+          "10K",
+          2,
+          "R0402",
+          "R7,R8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0402WGF1002TCE",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Supplier Part": "C25744",
+            "puuid": "cea456c24ca24165b176bcf9114a7b29",
+            "uuid": "6c2bedbae9fbd358441dfb9948555b9c"
+          }
+        ],
+        [
+          "ESP32-WROOM-32UE(4MB)_C2934568",
+          1,
+          "WIFI-SMD_ESP32-WROOM-32UE",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2934568",
+            "BOM_Manufacturer": "ESPRESSIF 乐鑫",
+            "BOM_Manufacturer Part": "ESP32-WROOM-32UE(4MB)",
+            "puuid": "52f4a22f6d8f427a9fe26645602170d5",
+            "uuid": "2e076c730e064f17ac11a9a9d4cd7bf4"
+          }
+        ]
+      ],
+      "updateTime": 1643965505,
+      "createTime": 1643955853,
+      "histories": [],
+      "created_at": "2022-02-04 09:24:13",
+      "updated_at": "2022-02-04 12:05:05"
+    },
+    {
+      "uuid": "66841e86c5242a044fddc36cde842650",
+      "title": "MCU",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "13496764f83d55de6ee6c40c818f3731": 2,
+        "353ff04a8071d3e6740fa5273965e20c": 2,
+        "2e076c730e064f17ac11a9a9d4cd7bf4": 1,
+        "3d033fcb6d334c25b65a754834cf5aaf": 1,
+        "6aed8d590c4e40fbb14c8ce120dbe52b": 1,
+        "40e54cefd7bb4082846de2b3395ac1ff": 1,
+        "902f4cd0c5304519a675be2ee076e142": 1,
+        "6c2bedbae9fbd358441dfb9948555b9c": 2,
+        "637415f70eb949abfaeba2abe658ee9b": 2,
+        "b13f76cc33404b309e2cd38bab4d4a51": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "Header-Male-2.54_1x4",
+          3,
+          "HDR-TH_4P-P2.54-V-M",
+          "H1,H2,H3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "Ckmtw",
+            "BOM_Manufacturer Part": "210S-1*4P L=11.6MMGold-plated black",
+            "BOM_Supplier Part": "C124378",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "89f5280378144b629de4998ef974b6b8",
+            "uuid": "58557ab5dac544259249b4981dd6020c"
+          }
+        ],
+        [
+          "WJ126V-5.0-2P",
+          1,
+          "CONN-TH_WJ126V-5.0-2P",
+          "P1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ReliaPro",
+            "BOM_Manufacturer Part": "WJ126V-5.0-2P",
+            "BOM_Supplier Part": "C8404",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "062b3c1ca40e463696708e6a448b475e",
+            "uuid": "3f69fb7874b2264b31c6cd70d022e987"
+          }
+        ],
+        [
+          "100nF",
+          1,
+          "C0603",
+          "C1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "FH",
+            "BOM_Manufacturer Part": "0603F104M500NT",
+            "BOM_Supplier Part": "C42998",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "ef0308c0ea86996567612637ce525ebc"
+          }
+        ],
+        [
+          "10uF",
+          2,
+          "C0603",
+          "C2,C3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "SAMSUNG",
+            "BOM_Manufacturer Part": "CL10A106KP8NNNC",
+            "BOM_Supplier Part": "C19702",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "3d033fcb6d334c25b65a754834cf5aaf"
+          }
+        ],
+        [
+          "2.7pF",
+          1,
+          "C0402",
+          "C4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "FH",
+            "BOM_Manufacturer Part": "0402CG2R7C500NT",
+            "BOM_Supplier Part": "C1561",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "6a880fe62790eec0357a4132b7a1e8e8"
+          }
+        ],
+        [
+          "TF-01A",
+          1,
+          "TF-SMD_TF-01A",
+          "CARD1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "HRO",
+            "BOM_Manufacturer Part": "TF-01A",
+            "BOM_Supplier Part": "C91145",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "9a08f47f425f4bad84311d285e13676f",
+            "uuid": "3d240747a85043e08408d9845ebe7995"
+          }
+        ],
+        [
+          "1.8nH",
+          1,
+          "L0402",
+          "L1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "HK10051N8S-T",
+            "BOM_Manufacturer": "TAIYO YUDEN",
+            "BOM_Supplier Part": "C89157",
+            "puuid": "8da96988a9164ab09ca115e01caf2944",
+            "uuid": "8338b7fd59174455908892c7e3db5b6c"
+          }
+        ],
+        [
+          "10K",
+          4,
+          "R0603",
+          "R1,R2,R3,R4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "YAGEO",
+            "BOM_Manufacturer Part": "RC0603FR-0710KL",
+            "BOM_Supplier Part": "C98220",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "9e0eced329e241a390924a11deca01dd"
+          }
+        ],
+        [
+          "E19-433MS100",
+          1,
+          "WIRELM-SMD_E19-433M20SC",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C97346",
+            "BOM_Manufacturer": "Chengdu Ebyte Elec Tech",
+            "BOM_Manufacturer Part": "E19-433MS100",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "17e1c5991a0e41fbae925cc2dcb23be3",
+            "uuid": "c0e8efbc5dc647b68651d4919e7c42a0"
+          }
+        ],
+        [
+          "SMACONNECTOR_EDGE_UFL",
+          1,
+          "SMA_EDGELAUNCH_UFL",
+          "X1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "04da586678d04a489aa7c3aad3424681",
+            "uuid": "923ac6d65460475c84b7be6679e45c6c"
+          }
+        ],
+        [
+          "SKRKAHE020",
+          2,
+          "SW-SMD_L3.9-W3.0-P4.45",
+          "BOOT1,RST1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C202388",
+            "BOM_Manufacturer": "ALPS Electric",
+            "BOM_Manufacturer Part": "SKRKAHE020",
+            "puuid": "b53540e64640488d85628c6a1377628d",
+            "uuid": "b13f76cc33404b309e2cd38bab4d4a51"
+          }
+        ],
+        [
+          "MLT-7525",
+          1,
+          "BUZ-SMD_4P-L7.5-W7.5-P7.59-TL",
+          "BUZZER1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C95299",
+            "BOM_Manufacturer": "Jiangsu Huaneng Elec",
+            "BOM_Manufacturer Part": "MLT-7525",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "f8464525159649efb04dade6ec86320c",
+            "uuid": "40e54cefd7bb4082846de2b3395ac1ff"
+          }
+        ],
+        [
+          "10uF",
+          1,
+          "C0603",
+          "C5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "SAMSUNG",
+            "BOM_Manufacturer Part": "CL10A106KP8NNNC",
+            "BOM_Supplier Part": "C19702",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "3d033fcb6d334c25b65a754834cf5aaf"
+          }
+        ],
+        [
+          "0.1uF",
+          1,
+          "C0402",
+          "C6",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C307416",
+            "BOM_Manufacturer": "Samsung Electro-Mechanics",
+            "BOM_Manufacturer Part": "CL05A106MQ8NUB8",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "6aed8d590c4e40fbb14c8ce120dbe52b"
+          }
+        ],
+        [
+          "1uF",
+          2,
+          "C0603",
+          "C7,C8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "CL10A105KB8NNNC",
+            "BOM_Manufacturer": "SAMSUNG",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Supplier Part": "C15849",
+            "puuid": "9796ce52d844439588f46357e429be00",
+            "uuid": "637415f70eb949abfaeba2abe658ee9b"
+          }
+        ],
+        [
+          "WS2812B-MINI",
+          1,
+          "LED-SMD_4P-L3.5-W3.5-TL_WS2812B",
+          "LED1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C527089",
+            "BOM_Manufacturer": "Worldsemi",
+            "BOM_Manufacturer Part": "WS2812B-Mini",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "226176c6090a408f97941d6918aaf715",
+            "uuid": "902f4cd0c5304519a675be2ee076e142"
+          }
+        ],
+        [
+          "White light_C2290",
+          2,
+          "LED0603-R-RD_WHITE",
+          "POWER1,STATUS1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "KENTO",
+            "BOM_Manufacturer Part": "0603White light",
+            "BOM_Supplier Part": "C2290",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "af16510a196f45a3b2eecfb1ed8360c1",
+            "uuid": "353ff04a8071d3e6740fa5273965e20c"
+          }
+        ],
+        [
+          "330",
+          2,
+          "R0402",
+          "R5,R6",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0402WGJ0331TCE",
+            "BOM_Supplier Part": "C12246",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "fafd024f554e426eb74cf4a204aa88b0",
+            "uuid": "13496764f83d55de6ee6c40c818f3731"
+          }
+        ],
+        [
+          "10K",
+          2,
+          "R0402",
+          "R7,R8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0402WGF1002TCE",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Supplier Part": "C25744",
+            "puuid": "cea456c24ca24165b176bcf9114a7b29",
+            "uuid": "6c2bedbae9fbd358441dfb9948555b9c"
+          }
+        ],
+        [
+          "ESP32-WROOM-32UE(4MB)_C2934568",
+          1,
+          "WIFI-SMD_ESP32-WROOM-32UE",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2934568",
+            "BOM_Manufacturer": "ESPRESSIF 乐鑫",
+            "BOM_Manufacturer Part": "ESP32-WROOM-32UE(4MB)",
+            "puuid": "52f4a22f6d8f427a9fe26645602170d5",
+            "uuid": "2e076c730e064f17ac11a9a9d4cd7bf4"
+          }
+        ]
+      ],
+      "updateTime": 1643965932,
+      "createTime": 1643956081,
+      "histories": [],
+      "created_at": "2022-02-04 09:28:01",
+      "updated_at": "2022-02-04 12:12:12"
+    },
+    {
+      "uuid": "f05fafa3149c45948a03f718c5c9a702",
+      "puuid": "e78dc15a324aee49be4d4aad9797b541",
+      "title": "PCB_N2onboardTelemetry",
+      "filename": "PCB_N2onboardTelemetry.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "b53540e64640488d85628c6a1377628d": 2,
+        "f8464525159649efb04dade6ec86320c": 1,
+        "f8151fdc728a41ebbc304e11d39e5437": 4,
+        "0821ed6ea50c44f4909e4be7610e4198": 2,
+        "9796ce52d844439588f46357e429be00": 2,
+        "89f5280378144b629de4998ef974b6b8": 3,
+        "8da96988a9164ab09ca115e01caf2944": 1,
+        "226176c6090a408f97941d6918aaf715": 1,
+        "062b3c1ca40e463696708e6a448b475e": 1,
+        "af16510a196f45a3b2eecfb1ed8360c1": 2,
+        "398691f1f785460098bbe5ee6590333c": 4,
+        "fafd024f554e426eb74cf4a204aa88b0": 2,
+        "cea456c24ca24165b176bcf9114a7b29": 2,
+        "52f4a22f6d8f427a9fe26645602170d5": 1,
+        "04da586678d04a489aa7c3aad3424681": 1,
+        "9a08f47f425f4bad84311d285e13676f": 1,
+        "17e1c5991a0e41fbae925cc2dcb23be3": 1
+      },
+      "BOM": [],
+      "updateTime": 1643968430,
+      "createTime": 1643965740,
+      "histories": [],
+      "created_at": "2022-02-04 12:09:00",
+      "updated_at": "2022-02-04 12:53:50"
+    }
+  ],
+  "sort": [
+    "808ad6901b4da812b8ac274357c9a8cc",
+    "22b0f8b7a1033b7907c930b9df5570cd",
+    "66841e86c5242a044fddc36cde842650"
+  ],
+  "title": "N2onboardTelemetry",
+  "foldername": "N2onboardTelemetry",
+  "schfilename": "N2onboardTelemetry.json",
+  "schfilemtime": 1643965932744
+}
