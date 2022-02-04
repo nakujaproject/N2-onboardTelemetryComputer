@@ -10,7 +10,9 @@
 [![Last commit](https://img.shields.io/github/last-commit/nakujaproject/easyedaTemplate.svg "Last commit")](https://github.com/nakujaproject/easyedaTemplate/commits/master)
 
 
-<a href="https://github.com/nakujaproject/easyedaTemplate"><img src="pinout/example.png?raw=true" width="500px"><br/></a>
+<a href="https://github.com/nakujaproject/easyedaTemplate"><img src="assets/topview.png?raw=true" width="500px"><br/></a>
+
+<a href="https://github.com/nakujaproject/easyedaTemplate"><img src="assets/bottomview.png?raw=true" width="500px"><br/></a>
 
 ## Setup
 
