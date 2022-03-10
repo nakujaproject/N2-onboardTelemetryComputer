@@ -4,7 +4,7 @@
   "name": "N2onboardTelemetry",
   "content": "",
   "created_at": "2022-01-05 14:29:38",
-  "updated_at": "2022-03-07 16:36:21",
+  "updated_at": "2022-03-10 18:39:09",
   "stick": "",
   "documents": [
     {
@@ -16,14 +16,14 @@
       "thumb": "/images/thumb-default.png",
       "components": {
         "58557ab5dac544259249b4981dd6020c": 3,
+        "fddee31b4eed4829b8b8e056a4fbadc7": 2,
         "47d98c9c68d6170a5582756e1844827b": 1,
         "b585d92194385de14506b560a4a27e20": 4,
         "6b60977dae874bd7ad4c1bb1037e439d": 2,
-        "75097bc89b0e4834b2a88a6126d8c3a1": 1,
-        "fddee31b4eed4829b8b8e056a4fbadc7": 2,
         "146e75363251e035203be60c60650418": 1,
         "ffa7dcc87e2c4721bdba7f096ec273ae": 1,
-        "7b2cdbeacbdd43a08c18d460668aad87": 1
+        "7b2cdbeacbdd43a08c18d460668aad87": 1,
+        "e1295e916a434db18619dc20c466c125": 1
       },
       "BOM": [
         [
@@ -110,6 +110,19 @@
           }
         ],
         [
+          "HEADER-PINS_2.54_03PIN_01ROW COPY",
+          1,
+          "HEADER-PINS_2.54_04PIN_01ROW",
+          "P1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "872cece489f64410904d4c2d85f8cd9f",
+            "uuid": "e1295e916a434db18619dc20c466c125"
+          }
+        ],
+        [
           "AO3401A",
           1,
           "SOT-23_L2.9-W1.3-P1.90-LS2.4-BR",
@@ -151,20 +164,6 @@
             "BOM_JLCPCB Part Class": "Extended Part",
             "puuid": "e7f085e4f71344109c090040716070ab",
             "uuid": "7b2cdbeacbdd43a08c18d460668aad87"
-          }
-        ],
-        [
-          "sensor-header-3pin",
-          1,
-          "SERVO-HEADER-3PIN",
-          "U5",
-          {
-            "BOM_Manufacturer": "",
-            "BOM_Manufacturer Part": "",
-            "BOM_Supplier Part": "",
-            "BOM_Supplier": "",
-            "puuid": "af9596fc243044419825408dc7cea73c",
-            "uuid": "75097bc89b0e4834b2a88a6126d8c3a1"
           }
         ],
         [
@@ -453,23 +452,6 @@
           }
         ],
         [
-          "10uF",
-          2,
-          "C0402",
-          "C14,C23",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Manufacturer Part": "CL05A106MQ5NUNC",
-            "BOM_Manufacturer": "SAMSUNG",
-            "BOM_Supplier Part": "C15525",
-            "BOM_JLCPCB SMD": "Yes",
-            "BOM_LCSC Assembly": "Yes",
-            "BOM_Paste Type": "base",
-            "puuid": "f8eca159cd18407f9d5df374a1c2badf",
-            "uuid": "b585d92194385de14506b560a4a27e20"
-          }
-        ],
-        [
           "0.1uF",
           9,
           "C0402",
@@ -482,6 +464,23 @@
             "BOM_JLCPCB Part Class": "Extended Part",
             "puuid": "0821ed6ea50c44f4909e4be7610e4198",
             "uuid": "6aed8d590c4e40fbb14c8ce120dbe52b"
+          }
+        ],
+        [
+          "10uF",
+          1,
+          "C0402",
+          "C23",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "CL05A106MQ5NUNC",
+            "BOM_Manufacturer": "SAMSUNG",
+            "BOM_Supplier Part": "C15525",
+            "BOM_JLCPCB SMD": "Yes",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Paste Type": "base",
+            "puuid": "f8eca159cd18407f9d5df374a1c2badf",
+            "uuid": "b585d92194385de14506b560a4a27e20"
           }
         ],
         [
@@ -633,11 +632,11 @@
           }
         ]
       ],
-      "updateTime": 1646588070,
+      "updateTime": 1646921837,
       "createTime": 1641382188,
       "histories": [],
       "created_at": "2022-01-05 14:29:48",
-      "updated_at": "2022-03-06 20:34:30"
+      "updated_at": "2022-03-10 17:17:17"
     },
     {
       "uuid": "22b0f8b7a1033b7907c930b9df5570cd",
@@ -1275,7 +1274,7 @@
       "title": "Peripherals",
       "description": "",
       "docType": "1",
-      "master": "",
+      "master": "4c3d9a375409a03fb125d4ff61225ae3",
       "thumb": "/images/thumb-default.png",
       "components": {
         "353ff04a8071d3e6740fa5273965e20c": 2,
@@ -1374,6 +1373,19 @@
           }
         ],
         [
+          "HEADER-PINS_2.54_03PIN_01ROW COPY",
+          1,
+          "HEADER-PINS_2.54_04PIN_01ROW",
+          "P1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "872cece489f64410904d4c2d85f8cd9f",
+            "uuid": "e1295e916a434db18619dc20c466c125"
+          }
+        ],
+        [
           "AO3401A",
           1,
           "SOT-23_L2.9-W1.3-P1.90-LS2.4-BR",
@@ -1415,20 +1427,6 @@
             "BOM_JLCPCB Part Class": "Extended Part",
             "puuid": "e7f085e4f71344109c090040716070ab",
             "uuid": "7b2cdbeacbdd43a08c18d460668aad87"
-          }
-        ],
-        [
-          "sensor-header-3pin",
-          1,
-          "SERVO-HEADER-3PIN",
-          "U5",
-          {
-            "BOM_Manufacturer": "",
-            "BOM_Manufacturer Part": "",
-            "BOM_Supplier Part": "",
-            "BOM_Supplier": "",
-            "puuid": "af9596fc243044419825408dc7cea73c",
-            "uuid": "75097bc89b0e4834b2a88a6126d8c3a1"
           }
         ],
         [
@@ -1717,23 +1715,6 @@
           }
         ],
         [
-          "10uF",
-          2,
-          "C0402",
-          "C14,C23",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Manufacturer Part": "CL05A106MQ5NUNC",
-            "BOM_Manufacturer": "SAMSUNG",
-            "BOM_Supplier Part": "C15525",
-            "BOM_JLCPCB SMD": "Yes",
-            "BOM_LCSC Assembly": "Yes",
-            "BOM_Paste Type": "base",
-            "puuid": "f8eca159cd18407f9d5df374a1c2badf",
-            "uuid": "b585d92194385de14506b560a4a27e20"
-          }
-        ],
-        [
           "0.1uF",
           9,
           "C0402",
@@ -1746,6 +1727,23 @@
             "BOM_JLCPCB Part Class": "Extended Part",
             "puuid": "0821ed6ea50c44f4909e4be7610e4198",
             "uuid": "6aed8d590c4e40fbb14c8ce120dbe52b"
+          }
+        ],
+        [
+          "10uF",
+          1,
+          "C0402",
+          "C23",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "CL05A106MQ5NUNC",
+            "BOM_Manufacturer": "SAMSUNG",
+            "BOM_Supplier Part": "C15525",
+            "BOM_JLCPCB SMD": "Yes",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Paste Type": "base",
+            "puuid": "f8eca159cd18407f9d5df374a1c2badf",
+            "uuid": "b585d92194385de14506b560a4a27e20"
           }
         ],
         [
@@ -1897,11 +1895,11 @@
           }
         ]
       ],
-      "updateTime": 1646658937,
+      "updateTime": 1646926749,
       "createTime": 1643956081,
       "histories": [],
       "created_at": "2022-02-04 09:28:01",
-      "updated_at": "2022-03-07 16:15:37"
+      "updated_at": "2022-03-10 18:39:09"
     },
     {
       "uuid": "74a333609a8b8e9ab01cb91cd61a79dd",
@@ -1914,7 +1912,7 @@
         "7bd50c4b164549c492d5adbbd86bceec": 1,
         "6aed8d590c4e40fbb14c8ce120dbe52b": 9,
         "19b44cfe75694691bfb693d3a727f555": 1,
-        "b585d92194385de14506b560a4a27e20": 2,
+        "b585d92194385de14506b560a4a27e20": 1,
         "9f6bbcb6bed04d499043c04a21cd6c03": 1,
         "ee1b3cbbb703484b89e46d2fa0966f31": 2,
         "3b276d9ab69b4a8983cc67110f342e32": 2,
@@ -2352,23 +2350,6 @@
           }
         ],
         [
-          "10uF",
-          2,
-          "C0402",
-          "C14,C23",
-          {
-            "BOM_Supplier": "LCSC",
-            "BOM_Manufacturer Part": "CL05A106MQ5NUNC",
-            "BOM_Manufacturer": "SAMSUNG",
-            "BOM_Supplier Part": "C15525",
-            "BOM_JLCPCB SMD": "Yes",
-            "BOM_LCSC Assembly": "Yes",
-            "BOM_Paste Type": "base",
-            "puuid": "f8eca159cd18407f9d5df374a1c2badf",
-            "uuid": "b585d92194385de14506b560a4a27e20"
-          }
-        ],
-        [
           "0.1uF",
           9,
           "C0402",
@@ -2381,6 +2362,23 @@
             "BOM_JLCPCB Part Class": "Extended Part",
             "puuid": "0821ed6ea50c44f4909e4be7610e4198",
             "uuid": "6aed8d590c4e40fbb14c8ce120dbe52b"
+          }
+        ],
+        [
+          "10uF",
+          1,
+          "C0402",
+          "C23",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "CL05A106MQ5NUNC",
+            "BOM_Manufacturer": "SAMSUNG",
+            "BOM_Supplier Part": "C15525",
+            "BOM_JLCPCB SMD": "Yes",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Paste Type": "base",
+            "puuid": "f8eca159cd18407f9d5df374a1c2badf",
+            "uuid": "b585d92194385de14506b560a4a27e20"
           }
         ],
         [
@@ -2532,11 +2530,11 @@
           }
         ]
       ],
-      "updateTime": 1646589158,
+      "updateTime": 1646920073,
       "createTime": 1646371640,
       "histories": [],
       "created_at": "2022-03-04 08:27:20",
-      "updated_at": "2022-03-06 20:52:38"
+      "updated_at": "2022-03-10 16:47:53"
     },
     {
       "uuid": "d9bb03243502867bee20341d82278a6a",
@@ -3174,12 +3172,14 @@
       "components": {
         "17e1c5991a0e41fbae925cc2dcb23be3": 1,
         "9a08f47f425f4bad84311d285e13676f": 1,
+        "c64ae7d2c6d046ba99ba3f1311496e78": 1,
+        "872cece489f64410904d4c2d85f8cd9f": 1,
         "8da96988a9164ab09ca115e01caf2944": 3,
         "1fe0adc377c7472ba321d68db1c050fa": 1,
         "0213856b1ac9498c9a987141e7914387": 1,
         "32b22494791c46c7923f210b651adcc1": 1,
         "9576f07cc7174c5ea96238917f7cdaac": 6,
-        "f8eca159cd18407f9d5df374a1c2badf": 6,
+        "f8eca159cd18407f9d5df374a1c2badf": 5,
         "0821ed6ea50c44f4909e4be7610e4198": 21,
         "b87368e1a0f640fbb8cd721768821672": 2,
         "89f5280378144b629de4998ef974b6b8": 3,
@@ -3187,7 +3187,6 @@
         "fafd024f554e426eb74cf4a204aa88b0": 12,
         "aeb5072cde544ddbbf3a0f964e1f80dd": 2,
         "e7f085e4f71344109c090040716070ab": 1,
-        "af9596fc243044419825408dc7cea73c": 1,
         "fdf2396de7694c3e8177c1c94fe2bbcd": 1,
         "a2c77697c4f2423d9c27e20724fa2168": 1,
         "0115d41db767491cbd92ec3d941b98bb": 1,
@@ -3199,11 +3198,11 @@
         "b53540e64640488d85628c6a1377628d": 2
       },
       "BOM": [],
-      "updateTime": 1646660181,
+      "updateTime": 1646926748,
       "createTime": 1643965740,
       "histories": [],
       "created_at": "2022-02-04 12:09:00",
-      "updated_at": "2022-03-07 16:36:21"
+      "updated_at": "2022-03-10 18:39:08"
     }
   ],
   "sort": [
@@ -3216,5 +3215,5 @@
   "title": "N2onboardTelemetry",
   "foldername": "N2onboardTelemetry",
   "schfilename": "N2onboardTelemetry.json",
-  "schfilemtime": 1646658937712
+  "schfilemtime": 1646926750114
 }
