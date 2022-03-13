@@ -4,7 +4,7 @@
   "name": "N2onboardTelemetry",
   "content": "",
   "created_at": "2022-01-05 14:29:38",
-  "updated_at": "2022-03-10 23:17:35",
+  "updated_at": "2022-03-13 21:53:11",
   "stick": "",
   "documents": [
     {
@@ -20,10 +20,10 @@
         "b585d92194385de14506b560a4a27e20": 4,
         "6b60977dae874bd7ad4c1bb1037e439d": 2,
         "ffa7dcc87e2c4721bdba7f096ec273ae": 1,
-        "7b2cdbeacbdd43a08c18d460668aad87": 1,
         "e1295e916a434db18619dc20c466c125": 1,
         "e4d89445f736ae18e5cd11ca33f02ba9": 2,
-        "146e75363251e035203be60c60650418": 1
+        "146e75363251e035203be60c60650418": 1,
+        "316737af30f74a8083a8d8ee0a4afa95": 1
       },
       "BOM": [
         [
@@ -152,18 +152,18 @@
           }
         ],
         [
-          "ME6217C33M5G",
+          "AIC1221-33GY3TR",
           1,
-          "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+          "SOT-223_L6.5-W3.5-P2.30-LS7.0-BR",
           "U3",
           {
             "BOM_Supplier": "LCSC",
-            "BOM_Supplier Part": "C427602",
-            "BOM_Manufacturer": "Nanjing Micro One Elec",
-            "BOM_Manufacturer Part": "ME6217C33M5G",
+            "BOM_Supplier Part": "C211622",
+            "BOM_Manufacturer": "Analog Integrations",
+            "BOM_Manufacturer Part": "AIC1221-33GY3TR",
             "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "e7f085e4f71344109c090040716070ab",
-            "uuid": "7b2cdbeacbdd43a08c18d460668aad87"
+            "puuid": "4ca399a3887148eeab92cd3a98a855b3",
+            "uuid": "316737af30f74a8083a8d8ee0a4afa95"
           }
         ],
         [
@@ -646,11 +646,11 @@
           }
         ]
       ],
-      "updateTime": 1646942288,
+      "updateTime": 1647034644,
       "createTime": 1641382188,
       "histories": [],
       "created_at": "2022-01-05 14:29:48",
-      "updated_at": "2022-03-10 22:58:08"
+      "updated_at": "2022-03-12 00:37:24"
     },
     {
       "uuid": "22b0f8b7a1033b7907c930b9df5570cd",
@@ -2728,33 +2728,33 @@
           }
         ],
         [
-          "ME6217C33M5G",
+          "AIC1221-33GY3TR",
           1,
-          "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+          "SOT-223_L6.5-W3.5-P2.30-LS7.0-BR",
           "U3",
           {
             "BOM_Supplier": "LCSC",
-            "BOM_Supplier Part": "C427602",
-            "BOM_Manufacturer": "Nanjing Micro One Elec",
-            "BOM_Manufacturer Part": "ME6217C33M5G",
+            "BOM_Supplier Part": "C211622",
+            "BOM_Manufacturer": "Analog Integrations",
+            "BOM_Manufacturer Part": "AIC1221-33GY3TR",
             "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "e7f085e4f71344109c090040716070ab",
-            "uuid": "7b2cdbeacbdd43a08c18d460668aad87"
+            "puuid": "4ca399a3887148eeab92cd3a98a855b3",
+            "uuid": "316737af30f74a8083a8d8ee0a4afa95"
           }
         ],
         [
-          "U254-051T-4BH83-F1S",
+          "micro USBFemale",
           1,
-          "MICRO-USB-SMD_U254-051T-4BH83-F1S",
+          "MICRO-USB-SMD_5P-P0.65-H-F_C10418",
           "USB1",
           {
             "BOM_Supplier": "LCSC",
-            "BOM_Supplier Part": "C397452",
-            "BOM_Manufacturer": "XKB Enterprise",
-            "BOM_Manufacturer Part": "U254-051T-4BH83-F1S",
+            "BOM_Manufacturer": "ValuePro",
+            "BOM_Manufacturer Part": "micro USBFemale",
+            "BOM_Supplier Part": "C10418",
             "BOM_JLCPCB Part Class": "Extended Part",
-            "puuid": "96bd5b662faa49d28e9c1c4335ae28c5",
-            "uuid": "800eda5ed5d34b7ba443a248feeebc0f"
+            "puuid": "0213856b1ac9498c9a987141e7914387",
+            "uuid": "146e75363251e035203be60c60650418"
           }
         ],
         [
@@ -3222,11 +3222,11 @@
           }
         ]
       ],
-      "updateTime": 1646937280,
+      "updateTime": 1647034662,
       "createTime": 1646518534,
       "histories": [],
       "created_at": "2022-03-06 01:15:34",
-      "updated_at": "2022-03-10 21:34:40"
+      "updated_at": "2022-03-12 00:37:42"
     },
     {
       "uuid": "f05fafa3149c45948a03f718c5c9a702",
@@ -3240,13 +3240,13 @@
       "components": {
         "17e1c5991a0e41fbae925cc2dcb23be3": 1,
         "9a08f47f425f4bad84311d285e13676f": 1,
+        "4ca399a3887148eeab92cd3a98a855b3": 1,
         "0213856b1ac9498c9a987141e7914387": 1,
         "f8eca159cd18407f9d5df374a1c2badf": 5,
         "176eead66a5c45e698aceb33a5f6fe97": 15,
         "0821ed6ea50c44f4909e4be7610e4198": 6,
         "ed5b3ee480a64b78af4c9b4475973df4": 2,
         "872cece489f64410904d4c2d85f8cd9f": 1,
-        "e7f085e4f71344109c090040716070ab": 1,
         "fdf2396de7694c3e8177c1c94fe2bbcd": 1,
         "1fe0adc377c7472ba321d68db1c050fa": 1,
         "a2c77697c4f2423d9c27e20724fa2168": 1,
@@ -3268,11 +3268,11 @@
         "b53540e64640488d85628c6a1377628d": 2
       },
       "BOM": [],
-      "updateTime": 1646943455,
+      "updateTime": 1647197591,
       "createTime": 1643965740,
       "histories": [],
       "created_at": "2022-02-04 12:09:00",
-      "updated_at": "2022-03-10 23:17:35"
+      "updated_at": "2022-03-13 21:53:11"
     }
   ],
   "sort": [
@@ -3285,5 +3285,5 @@
   "title": "N2onboardTelemetry",
   "foldername": "N2onboardTelemetry",
   "schfilename": "N2onboardTelemetry.json",
-  "schfilemtime": 1646942288892
+  "schfilemtime": 1647034662487
 }
